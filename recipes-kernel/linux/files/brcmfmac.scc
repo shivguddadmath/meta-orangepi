@@ -1,0 +1,3 @@
+define KFEATURE_DESCRIPTION "Enable backported brcmfmac"
+define KFEATURE_COMPATIBILITY board
+kconf hardware brcmfmac.cfg

@@ -42,7 +42,7 @@ The meta-orangepi layer depends on:
 
 1) OrangePi 4 LTS
 
-## Using the meta-radxa layer <a name="meta_orangepi_usage"></a>
+## Using the meta-orangepi layer <a name="meta_orangepi_usage"></a>
 
 ### Step 1: Fetching the source <a name="source_fetch"></a>
 
@@ -88,9 +88,9 @@ Fetch the source using the commands given below:
 
 ### Step 4: local.conf Setup <a name="local.conf_setup"></a>
 
-* You can simply copy the local.conf.sample present in meta-radxa/conf folder to the build/conf folder and rename it to local.conf and uncomment the machine for which you want to build an image
+* You can simply copy the local.conf.sample present in meta-orangepi/conf folder to the build/conf folder and rename it to local.conf and uncomment the machine for which you want to build an image
 
-<pre><code>~/yocto/poky/build $ cp ../meta-radxa/conf/local.conf.sample conf/local.conf
+<pre><code>~/yocto/poky/build $ cp ../meta-orangepi/conf/local.conf.sample conf/local.conf
 ~/yocto/poky/build $ nano conf/local.conf
 </code></pre>
 
